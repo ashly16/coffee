@@ -1,0 +1,207 @@
+body {
+    margin: 0;
+    padding: 0;
+ 
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(./img/fondo1.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.mask {
+    content: "";
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(100, 52, 52, 0.342);
+    z-index: 1;
+    backdrop-filter: blur(5px);
+}
+
+
+  .masthead {
+    position: relative;
+    width: 80%;
+    height: 100%;
+    z-index: 1;
+    padding: 20px;
+    background-color: rgba(66, 15, 15, 0.616);
+    top: 10px;
+    border-radius: 18px;
+    margin-bottom: 30px;
+    
+}
+
+.ll{
+    width: 500px;
+   
+}
+
+
+.hg{
+    padding-top: 150px;
+    padding-left: 80px;
+    color: rgb(255, 255, 255);
+    
+}
+
+.hg h1{
+    font-size: 70px;
+}
+
+.lq button{
+    background-color: rgb(102, 27, 27);
+    text-decoration: none;
+    color: white;
+    text-decoration: solid;
+    width: 180px;
+    border-radius:30px;
+    border: none;
+    padding: 15px;
+    font-size: 20px;
+    transition: transform 0.3s;
+    box-shadow: 5px 5px 15px rgb(0, 0, 0); /* Aquí aplicamos la sombra */
+
+    
+}
+
+
+.lq button:hover {
+    transform: scale(1.1);
+}
+
+.lw{
+    padding-top: 40px;
+}
+.we{
+    padding-top: 80px;
+}
+
+.de{
+    position: relative;
+    top: -200px;
+}
+
+.fas{
+    background-color: rgb(102, 27, 27);
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.parte1{
+    background-color: rgba(165, 36, 36, 0.425);
+    width: 60%;
+    height: 70%;
+    border-radius: 20px;
+    border: 0.5px solid rgb(255, 255, 255);
+}
+
+
+.parte1 h3, p{
+    position: relative;
+    top: -80px;
+
+}
+
+.one{
+    position: relative;
+    top: -90px;
+    margin-left: -10px;
+    transition: transform 0.3s;
+}
+
+.precio{
+    background-color: rgb(70, 8, 8);
+    width: 60%;
+    color: white;
+    border-radius: 20px;
+}
+
+.preciodiv{
+    margin-top: 60px;
+}
+
+.wq{
+    position: relative;
+    top: -90px;
+}
+
+@media( max-width:500px){
+    .parte3{
+        position: relative;
+        top: -90px;
+    }
+
+    .wq{
+        top: -50px;
+    }
+
+    .titulo2{
+        position: relative;
+        top: -50px;
+    }
+
+    .de{
+        position: relative;
+        top: -50px;
+    }
+
+}
+
+.l button{
+    background-color: rgb(102, 27, 27);
+    text-decoration: none;
+    color: white;
+    text-decoration: solid;
+    width: 180px;
+    border-radius:20px;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    transition: transform 0.3s;
+    margin-right: 50px;
+}
+.l button:hover{
+    transform: scale(1.1);
+
+}
+
+.one:hover{
+    transform: scale(1.1);
+}
+
+.gi{
+    margin-left: 60px;
+}
+
+.a{
+    position: relative;
+    top: -10px;
+}
+
+.ju{
+    position: relative;
+    top: 80px;
+    margin-left: 160px;
+}
+
+.list{
+    list-style: none;
+    margin-right: 20px;
+}
+
+.lew{
+    margin-top: -50px;
+}
